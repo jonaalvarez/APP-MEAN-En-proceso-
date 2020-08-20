@@ -9,22 +9,22 @@
               <div class="row">
                 <div class="input-field col-s12">
                   <input type="text" name="name" #name="ngModel" 
-                  [(ngModel)]="personService.selectedPerson.name" 
+                  [(ngModel)]="person.name" 
                   placeholder="Enter your Name">
                 </div>
                 <div class="input-field col-s12">
-                  <input type="text" name="position" #name="ngModel" 
-                  [(ngModel)]="personService.selectedPerson.position" 
+                  <input type="text" name="position" #name="ngModel"
+                  [(ngModel)]="person.position"
                   placeholder="Enter your Position">
                 </div>
                 <div class="input-field col-s12">
                   <input type="text" name="team" #name="ngModel" 
-                  [(ngModel)]="personService.selectedPerson.team" 
+                  [(ngModel)]="person.team" 
                   placeholder="Enter your Team">
                 </div>
                 <div class="input-field col-s12">
                   <input type="text" name="price" #name="ngModel" 
-                  [(ngModel)]="personService.selectedPerson.price" value="0" 
+                  [(ngModel)]="person.price" value="0" 
                   placeholder="Enter your Price">
                 </div>
                 <div class="card-action">
